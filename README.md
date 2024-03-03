@@ -1,4 +1,4 @@
-# Leng.-Y-Autonomas-I
+# Leng.-Y-Automatas-I
 
 Este repositorio fue creado para subir las tareas relacionados con la materia de Lenguajes y Autonomas I, correspondiente al Grupo B del Tecnológico de Pachuca.
 
