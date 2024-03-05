@@ -1,7 +1,17 @@
 # Leng.-Y-Automatas-I
 
-Este repositorio fue creado para subir las tareas relacionados con la materia de Lenguajes y Autonomas I, correspondiente al Grupo B del Tecnológico de Pachuca.
 
-## Alumno
-**Nombre:** Barrios Yáñez Angel Rodrigo  
-**Matrícula:** 21200581  
+Este repositorio fue creado para subir tareas relacionadas con la asignatura de Lenguajes y Autómatas I - Grupo B, del Instituto Tecnológico de Pachuca.
+
+## Estudiante
+**Nombre:** Angel Rodrigo Barrios Yáñez  
+**Matrícula:** 21200581
+
+
+## Estructura de Carpetas
+- **Tema #:** Esta carpeta contiene todas las tareas asignadas correspondientes al tema número #.
+
+
+## Contacto
+
+- **Correo Electrónico:** [l21200581@pachuca.tecnm.mx](mailto:l21200581@pachuca.tecnm.mx)
