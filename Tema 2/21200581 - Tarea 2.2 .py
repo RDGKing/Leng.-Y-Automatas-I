@@ -20,12 +20,16 @@ logger = logging.getLogger(__name__)
 # Expresión regular para detectar mensajes que contienen saludos en diferentes idiomas.
 expresion_saludo = re.compile(r"hello|hi|hey|hola", re.IGNORECASE)
 expresion_despedida = re.compile(r"bye|goodbye|adios|chao", re.IGNORECASE)
-patron_origen_destino_fecha = re.compile( r"volar de (\w+) a (\w+) el (\d{1,2} de \w+)")
+patron_origen_destino_fecha = re.compile(
+    r"volar de (\w+) a (\w+) el (\d{1,2} de \w+)")
 patron_precio = re.compile(r"cuánto cuesta un vuelo de (\w+) a (\w+)")
 patron_ida_vuelta = re.compile(r"un vuelo de ida y vuelta de (\w+) a (\w+)")
-correo_electronico = re.compile(r"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$")
+correo_electronico = re.compile(
+    r"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$")
 
 # Función para manejar el comando /start.
+
+
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Send a message when the command /start is issued."""
     user = update.effective_user  # Obtiene el usuario que envió el mensaje.
@@ -90,8 +94,7 @@ async def echo(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 def main() -> None:
     """Start the bot."""
     # Crea una instancia de la aplicación del bot utilizando el token de acceso proporcionado por Telegram.
-    application = Application.builder().token(
-        "6836074920:AAFuP0KvyV7mEnEt5S9IUcmHkj1FPp8RuZU").build()
+    application = Application.builder().token("TOKEN").build()
 
     # Agrega manejadores de comandos y mensajes a la aplicación para que el bot pueda responder a diferentes eventos.
     # Agrega un manejador para el comando /start.
