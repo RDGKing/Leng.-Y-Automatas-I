@@ -47,4 +47,6 @@ Los sistemas de control de los elevadores son un ejemplo común de aplicación d
 
 ### Diagrama de Control de Ascensores
 
-![alt text](graphviz.png)
+<p align="center">
+  <img src= photos/graphviz.png>
+</p>
